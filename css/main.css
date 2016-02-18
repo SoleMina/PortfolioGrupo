@@ -1,0 +1,88 @@
+.imagenes {
+   width: 100%;
+   opacity: 1;
+  -moz-transition: all 0.5s ease 0s;
+}
+.imagenes:hover {
+	opacity: 0.7;
+}
+.cajaparrafo {
+	background-color: #222222;
+	width: 100%;
+}
+.parrafo {
+	color: white;
+	text-align: center;
+	padding: 2% 0 2% 0;
+	font-size: 17px;
+}
+.btn {
+	padding: 7px 5px;
+	background-color: white;
+	color: #222222;
+	border-radius: 10px;
+    font-size: 12px;
+}
+.btn:hover {
+	border-radius: 50px;
+	background-color: pink;
+}
+.centrado {
+	text-align: center;
+	padding-bottom: 4%;
+}
+
+.contactame {
+	text-align: center;
+	padding: 2% 0 1% 0;
+}
+hr {
+	width: 10%;
+	color: orange;
+}
+.parrafo1 {
+	text-align: center;
+	padding: 0 23% 2% 23%;
+}
+.iconos1 {
+	text-align: center;
+	padding-left: 30%;
+}
+.iconos2 {
+	text-align: center;
+	padding-right: 30%;
+}
+
+.parrafo3 {
+	color: red;
+}
+.divider {
+	background-color: orange;
+	height: 1px;
+	margin: 0 auto 15px auto;
+	width: 3%;
+}
+.fa {
+	font-size: 26px;
+}
+
+@media (max-width: 370px) {
+	.col-md-4 {
+		background-color: red;
+	}
+    .iconos1 {
+    	padding-right: 30%;
+        }
+    .iconos2 {
+    	padding-left: 30%;
+    }
+    .divider {
+    	width: 10%;
+    }
+    .nav>li>a {
+    	margin-left: 5%;
+}
+
+.navbar-nav {
+    margin: 7.5px 1px !important;
+}
