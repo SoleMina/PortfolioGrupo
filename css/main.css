@@ -79,10 +79,59 @@ hr {
     .divider {
     	width: 10%;
     }
-    .nav>li>a {
-    	margin-left: 5%;
 }
 
 .navbar-nav {
     margin: 7.5px 1px !important;
+}
+.cuadro .info{
+    width: 420px;
+    height: 310px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.cuadro img {
+transition: all 0.2s linear;
+}
+.cuadro .info {
+opacity: 0;
+background-color: rgba(237, 68, 46, 0.84);
+transition: all 0.3s ease-in-out;
+}
+.cuadro h3 {
+transform: translateX(-200px);/*Desplazamos a la izquierda*/
+opacity: 0;
+transition: all 0.7s ease-in-out;
+text-align: center;
+}
+.cuadro p {
+transform: translateX(200px);/*Desplazamos a la derecha*/
+opacity: 0;
+transition: all 0.4s linear;
+text-align: center;
+}
+.cuadro:hover .info {
+opacity: 1;
+}
+
+.cuadro:hover h3,
+.cuadro:hover p {
+opacity: 1;
+transform: translateX(0px);/*Regresamos a las posiciones originales*/
+}
+.cuadro:hover p {
+transition-delay: 0.1s;
+}
+.categoria {
+	font-size: 18px;
+	color: #F3A291;
+	margin-top: 92px;
+	font-weight: bold;
+}
+.nombre-proyecto {
+    font-size: 20px;
+    color: white;
+    margin-top: 7px;
 }
