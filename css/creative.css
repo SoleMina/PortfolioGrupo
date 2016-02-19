@@ -1,9 +1,3 @@
-/** {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
- }
-*/
 body{
 	font-family: 'Merriweather Sans', sans-serif;
 }
@@ -19,7 +13,6 @@ body{
 .navbar {
 	border-radius: 0px;
     width: 100%;
-    /*position: absolute;*/
 }
 
 .navbar-collapse {
@@ -44,21 +37,16 @@ body{
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
-	padding: 17% 0%;
+	padding: 16% 0%;
 }
 
 .imagen1 h1{
 	font-weight: 600;
-	width: 56%;
+	width: 74%;
     margin: auto;
     font-size: 47px;
-    /*border:1px solid blue;*/
 }
 
-/*.row{
-	border:1px solid red;
-}
-*/
 .divider {
     background: #D05B48;
     height: 3px;
@@ -70,7 +58,6 @@ body{
 	width: 48%;
     margin: auto;
     padding-bottom: 43px;
-    /*border: 1px solid green;*/
 }
 
 .imagen1 button {
@@ -78,6 +65,10 @@ body{
     padding: 2px 23px 2px 23px;
     border: none;
     background-color: #D05B48;
+}
+
+.imagen1 button:hover{
+    background-color: blue;
 }
 
 .fila2 .divider{
@@ -90,7 +81,6 @@ body{
     margin: auto;
     font-size: 11px;
     margin-bottom: 88px;
-    /*border: 1px solid red;*/
 }
 
 .fila2 h3{
@@ -100,7 +90,6 @@ body{
 }
 
 .fila3 h3{
-	/*border:1px solid blue;*/
 	margin-top:70px;
 }
 
@@ -138,11 +127,6 @@ body{
     padding-bottom: 5%;
 }
 
-/*.navbar-default{
-	min-height: auto;
-	margin-bottom:0; 
-}*/
-
 .text-white{
     color:white;
 }
@@ -151,8 +135,3 @@ body{
     background-color: #F05F40;
 }
 
-/*.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 28px 13px;
-}*/
